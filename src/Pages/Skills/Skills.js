@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
     return (
         <section>
-            <h1 className='text-center'>Professional Skills</h1>
+            <h2 className='text-center'>Professional Skills</h2>
             <div className="left-banner">
                 <div className='flexible-container'>
                     <div id="oracle-experience" className="experience-item">

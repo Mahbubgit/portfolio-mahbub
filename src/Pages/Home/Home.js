@@ -1,4 +1,5 @@
 import React from 'react';
+import Services from '../Services/Services';
 import CompanyTitle from '../Shared/CompanyTitle/CompanyTitle';
 import PrimaryButton from '../Shared/PrimaryButton';
 import Skills from '../Skills/Skills';
@@ -21,9 +22,9 @@ const Home = () => {
                         <PrimaryButton>Download My CV</PrimaryButton>
                     </div>
                 </div>
-
             </div>
             <Skills></Skills>
+            <Services></Services>
         </section>
 
     );
