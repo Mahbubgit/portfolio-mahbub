@@ -28,7 +28,7 @@ const Skills = () => {
                             ipsum assumenda quisquam repellat ipsam non error. Fugit.</p>
                     </div>
                     <div id="seo-experience" className="experience-item">
-                        <h2>SEO Expert</h2>
+                        <h2>SEO Learner</h2>
                         <h3 className="orange-color text-center">2022-2023 | SEO Learner </h3>
                         <p className='text-justify p-2'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta voluptates, neque provident sint vel
                             a corporis minima ea explicabo aperiam rem officiis magnam! Culpa similique, cum natus reprehenderit
