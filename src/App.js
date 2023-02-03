@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import Skills from './Pages/Skills/Skills';
 import Projects from './Pages/Projects/Projects';
-import Blogs from './Pages/Blogs/Blogs';
+import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
 import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Shared/Header/Header';
@@ -17,16 +17,13 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
-        
-
-                
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/skills' element={<Skills></Skills>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
         <Route path='/pricing' element={<Pricing></Pricing>}></Route>
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/resume' element={<Resume></Resume>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
 

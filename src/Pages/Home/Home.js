@@ -3,12 +3,14 @@ import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
 import CompanyTitle from '../Shared/CompanyTitle/CompanyTitle';
 import PrimaryButton from '../Shared/PrimaryButton';
+import ReturnToTop from '../Shared/ReturnToTop/ReturnToTop';
 import Skills from '../Skills/Skills';
 import './Home.css';
 
 const Home = () => {
     return (
         <section>
+            <ReturnToTop></ReturnToTop>
             <div className="hero min-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src="https://i.ibb.co/3YNx70V/profile-pic.png" width={400} alt='Profile' />
