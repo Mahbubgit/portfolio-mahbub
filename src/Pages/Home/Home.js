@@ -1,5 +1,5 @@
 import React from 'react';
-import Projects from '../Projects/Projects';
+import Pricing from '../Pricing/Pricing';
 import Services from '../Services/Services';
 import CompanyTitle from '../Shared/CompanyTitle/CompanyTitle';
 import PrimaryButton from '../Shared/PrimaryButton';
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <Skills></Skills>
             <Services></Services>
-            <Projects></Projects>
+            <Pricing></Pricing>
         </section>
 
     );

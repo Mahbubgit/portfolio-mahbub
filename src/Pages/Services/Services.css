@@ -47,8 +47,8 @@
 }
 .service-btn{
     margin: 10px 30%;
-    width: 100px;
-    height: 40px;
+    /* width: 100px; */
+    /* height: 40px; */
     transition: .5s;
     font-weight: 700;
     border: 2px solid black;

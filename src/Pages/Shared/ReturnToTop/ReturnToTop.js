@@ -30,7 +30,7 @@ const ReturnToTop = () => {
                 onClick={() => topFunction()}
                 id="returnToTopBtn"
                 title="Go to top"
-            >
+            >Top
                 <img style={{ width: "30px", height: "30px" }} src={GoToTopImg} alt="Go to Top" />
             </button>
         </div>

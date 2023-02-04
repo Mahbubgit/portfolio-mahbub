@@ -1,11 +1,12 @@
 import React from 'react';
+// import PrimaryButton from '../../Shared/PrimaryButton';
 import './OracleDeveloper.css';
 
 const OracleDeveloper = () => {
     function handleReadMore() {
-        var dots = document.getElementById("dots");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("readMoreBtn");
+        let dots = document.getElementById("dots");
+        let moreText = document.getElementById("more");
+        let btnText = document.getElementById("readMoreBtn");
 
         if (dots.style.display === "none") {
             dots.style.display = "inline";
@@ -22,8 +23,10 @@ const OracleDeveloper = () => {
         <div>
             <h2>Oracle Developer</h2>
             <h3 className="orange-color text-center">2008-Present | Pro Level Developer</h3>
-            <p className='text-justify p-2'>Oracle Developer is a suite of development tools provided by Oracle Corporation for building and managing applications that interact with Oracle databases. It includes a variety of tools and techno<span id="dots">...</span><span id="more">logies such as:
-                
+            <p className='text-justify p-2'>Oracle Developer is a suite of development tools provided by Oracle Corporation for building and managing applications that interact with Oracle databases. It includes a variety of tools and techno
+                <span id="dots">...</span>
+                <span id="more">logies such as:
+
                     Oracle SQL Developer: a free, integrated development environment for working with SQL and PL/SQL.
                     Oracle Forms Developer: a tool for building and deploying client-server applications.
                     Oracle Reports Developer: a tool for creating, designing, and publishing reports.
