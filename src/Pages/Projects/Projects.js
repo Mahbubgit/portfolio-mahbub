@@ -80,7 +80,9 @@ const Projects = () => {
         <div>
 
             <div className="main">
-                <h2>PROJECTS</h2>
+                <div className="section-heading">
+                    <h2>My Projects</h2>
+                </div>
                 <div id="myBtnContainer">
                     <button onClick={() => handleShowAll(filterSelection('all'))} className="btn active mx-2 h-6 w-36  rounded-md text-white text-base bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-opacity-50 focus:ring-indigo-800" >Show all</button>
                     <button onClick={() => handleAssignmentProject(filterSelection('assignment'))} className="btn mx-2 h-6 w-36  rounded-md text-white text-base bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-opacity-50 focus:ring-indigo-800">Assignment</button>
@@ -112,7 +114,7 @@ const Projects = () => {
                     <div className="column assignment">
                         <div className="content">
                             <h4>
-                                <a href="https://affectionate-elion-eb7a7a.netlify.app" target={'_blank'} rel="noreferrer">
+                                <a href="https://mahbubgit.github.io/sm-convention-center/" target={'_blank'} rel="noreferrer">
                                     <img src={img3} alt="Convention Center" style={{ width: "100%", height: "150px" }} />
                                     Convention Center
                                 </a>
